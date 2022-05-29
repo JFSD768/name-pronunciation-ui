@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  position: relative;
+  background-color: #bb0826;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.App-name{
+  margin-right: 30px;
+  font-size: 1.2rem;
+}
+
+.App-user{
+ margin-right: 30px;
+}
+
+.App-user .sign-out {
+  margin-right: 10px;
+}
+
+.tool-header {
+  color: #353535;
+  padding-bottom: 30px;
+  font-size: 1rem;
+  line-height: 1.38;
+  font-weight: 700;
+}
+
+.logo-icon {
+  display : inline-block;
+  width: 9.3125rem;
+  height: 2.5rem;
+  margin: 0.1875rem 0 0 0.875rem;
+}
+
+.MuiButton-contained.sign-out {
+  color: #fff;
+  background-color: #bb0826;
+  margin-top: -0.1rem;
+  box-shadow: none;
+}
+
+.sign-out.MuiButton-contained:hover {
+  background-color: #bb0826;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+footer {  
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+
+}
+
+.footer__link {
+  font-size: 0.875rem;
+  text-decoration: underline;
+  color: #4d4d4d;
+}
+
+.footer-info {
+  margin-top: 2.5rem;
+  padding: 1rem 0 2.5rem;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+  color: #4d4d4d;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0,0,0);
+  font-size: 0.0625rem;
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width:0;
+  clip-path: inset(50%)
+}
+
+.button-simple-link-open-new-window svg{
+  font-size: 1rem;
+}
+
+.login-form {
+  justify-content: center;
+  min-height: 50vh;
+}
+.login-form h1{
+ padding: 30px;
+}
+
+.button-block{
+  width: 65%;
+}
+
+.login-wrapper{
+  justify-content: center;
+  min-height: 25vh;
+  padding: 50px;
+  text-align: center;
+}
+
+.login-wrapper button {
+  color: #fff;
+  background-color: #2ea44f;
+  border-color: rgba(27,31,35,.15);
+  
+  box-shadow: 0 1px 0 rgba(27,31,35,.1), inset 0 1px 0 hsla(0,0%,100%,.03);
+
+}
+
+.login-wrapper button:hover{
+  background-color: #2c974b;
+}
+
+.error-styles{
+  color: rgba(158,28,35,.6);
+}
+
+.slider-width {
+  margin: 25px;
+}
+
+.justify-content--space-around {
+  justify-content: space-around;
+}
+
+.user-pref table {
+  width: 100%
+}
+
+.add-zindex{
+  z-index: 1400 !important;
+}
+
+.margin-left-25{
+  margin-left: 25px;
+} 
+.margin-btm-10{
+  margin-bottom: -10px;
+}

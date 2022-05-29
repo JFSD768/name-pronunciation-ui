@@ -1,0 +1,323 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.tool-header {
+  color: #353535;
+  padding-bottom: 30px;
+  font-size: 1rem;
+  line-height: 1.38;
+  font-weight: 700;
+}
+
+.logo-icon {
+  display : inline-block;
+  width: 9.3125rem;
+  height: 2.5rem;
+  margin: 0.1875rem 0 0 0.875rem;
+}
+
+.App-header {
+  position: relative;
+  background-color: #bb0826;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.name-audio {
+  margin-top: 10px;
+}
+
+.tool-body {
+  margin: 30px;
+}
+
+.play-audio{
+  margin-bottom: 30px;
+}
+
+.float-right{
+  float: right;
+}
+
+.audio-react-recorder__canvas {
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.MuiButton-contained.sign-out {
+  color: #fff;
+  background-color: #bb0826;
+  margin-top: -0.1rem;
+  box-shadow: none;
+}
+
+.name-search, .name-customize-tools, .user-details {  
+  display: flex;
+  justify-content: center;
+  color: #353535;
+}
+
+.margin-right-50 {
+  margin-right:50px
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+.margin-top-50{
+  margin-top: 50px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.user-pref {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.pronounce-name {
+  margin: 30px 0;
+ font-weight: 600;
+ font-size: 1.5rem;
+}
+
+.pronounce-name svg {
+  font-size: 2rem;
+  fill: #00558e;
+  margin-left: 5px;
+}
+
+.name-customize-tools button, label>span , .MuiDialogContent-root button{
+  background: linear-gradient(180deg, #3277a4 0, #0b6198) #3277a4;
+  font-size: 0.875rem;
+  border-color: #00558e;
+  color:#fff;
+  margin-right: 20px;
+}
+.name-customize-tools .uploadIcon .MuiButton-label{
+  color: #fff;
+}
+
+.mic-icon {
+  margin-top: 30px;
+}
+.mic-icon-info {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.mic-icon, .stop-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-customize-tools .uploadIcon .MuiButton-startIcon{
+  padding: 1px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightblue;
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  /* border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem; */
+  border-spacing: 0;
+  margin: 0;
+  padding:0;
+  font-family: Arial;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #353535;
+  line-height: 1.14;
+  width: 80%;
+  border-collapse: separate;
+
+}
+
+th:first-child{
+  border-left: 0;
+}
+
+th {
+  box-sizing: border-box;
+  background-color: #f7f7f5;
+  border-top: 1px solid #b9bcbd;
+  border-bottom: 3px solid #b9bcbd;
+  border-left: 1px solid #b9bcbd;
+  border-right: 0;
+  font-weight: 700;
+  word-wrap: normal;
+  vertical-align: middle;
+  padding: 0.625rem 0.9375rem;
+  color: #4d4d4d;
+  text-align: left;
+  position: relative;
+}
+
+td {
+  border: 0;
+  border-bottom: 1px solid #b9bcbd;
+  padding: 0.625rem 0.9375rem;
+}
+
+/* td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+} */
+
+caption {
+  padding: 10px;
+}
+footer {  
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+
+}
+
+.footer__link {
+  font-size: 0.875rem;
+  text-decoration: underline;
+  color: #4d4d4d;
+}
+
+.footer-info {
+  margin-top: 2.5rem;
+  padding: 1rem 0 2.5rem;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+  color: #4d4d4d;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0,0,0);
+  font-size: 0.0625rem;
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width:0;
+  clip-path: inset(50%)
+}
+
+.button-simple-link-open-new-window svg{
+  font-size: 1rem;
+}
+
+.login-form {
+  justify-content: center;
+  min-height: 50vh;
+}
+.login-form h1{
+ padding: 30px;
+}
+
+.button-block{
+  width: 65%;
+}
+
+.login-wrapper{
+  justify-content: center;
+  min-height: 25vh;
+  padding: 50px;
+  text-align: center;
+}
+
+.login-wrapper button {
+  color: #fff;
+  background-color: #2ea44f;
+  border-color: rgba(27,31,35,.15);
+  
+  box-shadow: 0 1px 0 rgba(27,31,35,.1), inset 0 1px 0 hsla(0,0%,100%,.03);
+
+}
+
+.login-wrapper button:hover{
+  background-color: #2c974b;
+}
+
+.error-styles{
+  color: rgba(158,28,35,.6);
+}
+
+.slider-width {
+  margin: 25px;
+}
+
+.justify-content--space-around {
+  justify-content: space-around;
+}
+
+.user-pref table {
+  width: 100%
+}
+
+.add-zindex{
+  z-index: 1400 !important;
+}
+
+.margin-left-25{
+  margin-left: 25px;
+} 
+.margin-btm-10{
+  margin-bottom: -10px;
+}

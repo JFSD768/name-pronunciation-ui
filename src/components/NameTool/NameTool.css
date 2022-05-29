@@ -1,0 +1,154 @@
+
+
+table {
+    border-spacing: 0;
+    margin: 0;
+    padding:0;
+    font-family: Arial;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #353535;
+    line-height: 1.14;
+    width: 80%;
+    border-collapse: separate;
+  
+  }
+  
+  th:first-child{
+    border-left: 0;
+  }
+  
+  th {
+    box-sizing: border-box;
+    background-color: #f7f7f5;
+    border-top: 1px solid #b9bcbd;
+    border-bottom: 3px solid #b9bcbd;
+    border-left: 1px solid #b9bcbd;
+    border-right: 0;
+    font-weight: 700;
+    word-wrap: normal;
+    vertical-align: middle;
+    padding: 0.625rem 0.9375rem;
+    color: #4d4d4d;
+    text-align: left;
+    position: relative;
+  }
+  
+  td {
+    border: 0;
+    border-bottom: 1px solid #b9bcbd;
+    padding: 0.625rem 0.9375rem;
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+  .name-customize-tools .uploadIcon .MuiButton-startIcon{
+    padding: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightblue;
+    color: #fff;
+  }
+  
+  .uploadIcon.MuiButton-contained .MuiButton-startIcon{
+   border-color: #fff;
+  }
+
+  
+
+.name-search, .name-customize-tools, .user-details {  
+    display: flex;
+    justify-content: center;
+    color: #353535;
+  }
+  
+  .margin-right-50 {
+    margin-right:50px
+  }
+  .margin-bottom-20{
+    margin-bottom: 20px;
+  }
+  
+  .margin-bottom-50 {
+    margin-bottom: 50px;
+  }
+  .margin-top-50{
+    margin-top: 50px;
+  }
+  
+  .margin-bottom-30 {
+    margin-bottom: 30px;
+  }
+  .margin-top-30{
+    margin-top: 30px;
+  }
+  
+  .user-pref {
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .pronounce-name {
+    margin: 30px 0;
+   font-weight: 600;
+   font-size: 1.5rem;
+  }
+  
+  .pronounce-name svg {
+    font-size: 2rem;
+    fill: #00558e;
+    margin-left: 5px;
+  }
+  
+  .name-customize-tools button, label>span , .MuiDialogContent-root button, .uploadIcon.MuiButton-contained{
+    background: linear-gradient(180deg, #3277a4 0, #0b6198) #3277a4;
+    font-size: 0.875rem;
+    border-color: #00558e;
+    color:#fff;
+    margin-right: 20px;
+  }
+  .name-customize-tools .uploadIcon .MuiButton-label{
+    color: #fff;
+  }
+  
+  .mic-icon {
+    margin-top: 30px;
+  }
+  .mic-icon-info {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .mic-icon, .stop-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+.name-audio {
+    margin-top: 10px;
+  }
+  
+  .tool-body {
+    margin: 30px;
+  }
+  
+  .play-audio{
+    margin-bottom: 30px;
+  }
+  
+  .float-right{
+    float: right;
+  }
+  
+  .audio-react-recorder__canvas {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
