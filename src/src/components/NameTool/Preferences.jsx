@@ -70,7 +70,7 @@ function Preferences(props) {
         setIsLoading(true);
         setLangVal(event.target.value);
         setChosenLanguage(event.target.value);
-        axios.get(`http://wfnps.azurewebsites.net/voices/${event.target.value}`).then(response => {
+        axios.get(`https://wfnps.azurewebsites.net/voices/${event.target.value}`).then(response => {
             setVoiceList(response.data);
             setChosenVoice(response.data[0].shortName.split("-")[2]);
             

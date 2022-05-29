@@ -41,7 +41,7 @@ function NameTool() {
     };
 
     useEffect(() => {
-        axios.get("http://wfnps.azurewebsites.net/names").then(response => {
+        axios.get("https://wfnps.azurewebsites.net/names").then(response => {
             setItemsList(response.data)
         });
         
